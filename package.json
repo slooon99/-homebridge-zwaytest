@@ -1,0 +1,42 @@
+{
+  "name": "homebridge-zway-test",
+  "version": "0.6.0-alpha1",
+  "description": "homebridge-plugin for ZWay Server and RaZBerry",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests/js/runner.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevindayton/homebridge-zway-kevindayton.git"
+  },
+  "preferGlobal": true,
+  "keywords": [
+    "homebridge-plugin",
+    "Z-Way",
+    "RaZBerry",
+    "Z-Wave",
+    "HomeKit"
+  ],
+  "engines": {
+    "node": ">=0.12.0",
+    "homebridge": ">=0.2.5"
+  },
+  "dependencies": {
+    "request": "2.74.0",
+    "q": "1.4.x",
+    "debug": "^2.2.0",
+    "tough-cookie": "^2.2.0"
+  },
+  "devDependencies": {
+    "qunit": "^0.9.1",
+    "homebridge": ">=0.2.5",
+    "istanbul": ">=0.4.5"
+  },
+  "author": "S'pht'Kr <fthasphtkr@gmail.com> (https://github.com/SphtKr)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SphtKr/homebridge-zway/issues"
+  },
+  "homepage": "https://github.com/SphtKr/homebridge-zway#readme"
+}
